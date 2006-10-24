@@ -1,3 +1,4 @@
+#Full Event content 
 block RecoLocalTrackerFEVT = {
   untracked vstring outputCommands = {
 #Clusters
@@ -13,12 +14,14 @@ block RecoLocalTrackerFEVT = {
   }		
 }	
 
+#RECO content
 block RecoLocalTrackerRECO = {
   untracked vstring outputCommands = {
 #nothing!
   }		
 }	
 
+#AOD content
 block RecoLocalTrackerAOD = {
   untracked vstring outputCommands = {
 #nothing!

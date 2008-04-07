@@ -17,7 +17,9 @@ block RecoLocalTrackerFEVT = {
 #RECO content
 block RecoLocalTrackerRECO = {
   untracked vstring outputCommands = {
-#nothing!
+#Clusters
+   "keep *_siPixelClusters_*_*",
+   "keep *_siStripClusters_*_*",
   }		
 }	
 

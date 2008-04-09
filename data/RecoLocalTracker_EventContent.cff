@@ -19,7 +19,7 @@ block RecoLocalTrackerRECO = {
   untracked vstring outputCommands = {
 #Clusters
    "keep *_siPixelClusters_*_*",
-   "keep *_siStripClusters_*_*",
+   "keep *_siStripClusters_*_*"
   }		
 }	
 

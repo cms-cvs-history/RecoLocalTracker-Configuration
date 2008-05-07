@@ -35,8 +35,8 @@ block RecoLocalTrackerRECO = {
 #Si Strip hits
     "keep *_siStripRecHits_*_*",
     "keep *_siStripMatchedRecHits_*_*"
-}	
-
+    }	
+}
 #AOD content
 block RecoLocalTrackerAOD = {
   untracked vstring outputCommands = {

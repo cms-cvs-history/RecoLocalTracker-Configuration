@@ -3,14 +3,14 @@ block RecoLocalTrackerFEVT = {
   untracked vstring outputCommands = {
 #Clusters
    "keep *_siPixelClusters_*_*",
-   "keep *_siStripClusters_*_*",
+   "keep *_siStripClusters_*_*"
 
-#Si Pixel hits
-    "keep *_siPixelRecHits_*_*",
+#NO Si Pixel hits: they're transient in 2.1.X
+#    "keep *_siPixelRecHits_*_*",
 
-#Si Strip hits
-    "keep *_siStripRecHits_*_*",
-    "keep *_siStripMatchedRecHits_*_*"
+#NO Si Strip hits: they're transient in 2.1.X
+#    "keep *_siStripRecHits_*_*",
+#    "keep *_siStripMatchedRecHits_*_*"
   }		
 }	
 

@@ -1,0 +1,48 @@
+#Full Event content 
+block RecoLocalTrackerFEVT = {
+    untracked vstring outputCommands = {
+	#Digis
+	"keep *_siPixelDigis_*_*",
+	"keep *_siStripDigis_*_*",
+	"keep *_siStripZeroSuppression_*_*",
+	
+	#Clusters
+	"keep *_siPixelClusters_*_*",
+	"keep *_siStripClusters_*_*",
+	
+	#Si Pixel hits
+	"keep *_siPixelRecHits_*_*",
+	
+	#Si Strip hits
+	"keep *_siStripRecHits_*_*",
+	"keep *_siStripMatchedRecHits_*_*"
+    }		
+}	
+
+#RECO content
+block RecoLocalTrackerRECO = {
+    untracked vstring outputCommands = {
+	#Digis
+	"keep *_siPixelDigis_*_*",
+	"keep *_siStripDigis_*_*",
+	"keep *_siStripZeroSuppression_*_*",
+	
+	#Clusters
+	"keep *_siPixelClusters_*_*",
+	"keep *_siStripClusters_*_*",
+	
+	#Si Pixel hits
+	"keep *_siPixelRecHits_*_*",
+	
+	#Si Strip hits
+	"keep *_siStripRecHits_*_*",
+	"keep *_siStripMatchedRecHits_*_*"
+    }	
+}
+
+#AOD content
+block RecoLocalTrackerAOD = {
+    untracked vstring outputCommands = {
+	#nothing!
+    }		
+}	

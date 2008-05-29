@@ -11,6 +11,7 @@ include "RecoLocalTracker/SiStripZeroSuppression/data/SiStripZeroSuppression_Sim
 include "RecoLocalTracker/SiStripClusterizer/data/SiStripClusterizer_SimData2.cfi" #SimData2.cfi compatible with RealData reco in 20x
 include "RecoLocalTracker/SiPixelClusterizer/data/SiPixelClusterizer.cfi"
 include "RecoLocalTracker/SiPixelRecHits/data/SiPixelRecHits.cfi"
+include "RecoLocalTracker/SiPixelRecHits/data/PixelCPEESProducers.cff"
 
 sequence pixeltrackerlocalreco = {siPixelClusters, siPixelRecHits}
 

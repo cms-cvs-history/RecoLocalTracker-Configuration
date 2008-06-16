@@ -7,8 +7,8 @@ include "Geometry/TrackerNumberingBuilder/data/trackerNumberingGeometry.cfi"
 include "RecoLocalTracker/SiStripRecHitConverter/data/SiStripRecHitConverter.cfi"
 include "RecoLocalTracker/SiStripRecHitConverter/data/SiStripRecHitMatcher.cfi"
 include "RecoLocalTracker/SiStripRecHitConverter/data/StripCPEfromTrackAngle.cfi"
-include "RecoLocalTracker/SiStripZeroSuppression/data/SiStripZeroSuppression_SimData.cfi" #SimData.cfi compatible with RealData reco in 20x
-include "RecoLocalTracker/SiStripClusterizer/data/SiStripClusterizer_SimData2.cfi" #SimData2.cfi compatible with RealData reco in 20x
+include "RecoLocalTracker/SiStripZeroSuppression/data/SiStripZeroSuppression.cfi"
+include "RecoLocalTracker/SiStripClusterizer/data/SiStripClusterizer.cfi"
 include "RecoLocalTracker/SiPixelClusterizer/data/SiPixelClusterizer.cfi"
 include "RecoLocalTracker/SiPixelRecHits/data/SiPixelRecHits.cfi"
 include "RecoLocalTracker/SiPixelRecHits/data/PixelCPEESProducers.cff"
